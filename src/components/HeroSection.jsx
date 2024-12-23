@@ -1,5 +1,5 @@
 import React from 'react';
-import videoSrc from '../assets/HS.webM';
+import videoSrc from '../assets/HS.webm';
 
 const HeroSection = () => {
   return (
