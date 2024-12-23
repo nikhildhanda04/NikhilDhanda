@@ -1,0 +1,81 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'Andenver';
+    src: url('./assets/fonts/Andenver.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'Velcan';
+    src: url('./assets/fonts/velcan-regular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'Beycago';
+    src: url('./assets/fonts/Beycago.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'Boundless';
+    src: url('./assets/fonts/Boundless.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'Gothic';
+    src: url('./assets/fonts/Gothic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'Greater';
+    src: url('./assets/fonts/GreaterCreation.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'Hatten';
+    src: url('./assets/fonts/HATTEN.TTF') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'ImpactHeros';
+    src: url('./assets/fonts/ImpactHeros.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'Natural';
+    src: url('./assets/fonts/Natural.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'Over';
+    src: url('./assets/fonts/Over.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'Recoleta';
+    src: url('./assets/fonts/Recoleta.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
