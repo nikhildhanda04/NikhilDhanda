@@ -22,6 +22,7 @@ const ProjectCard = ({ CardTitle, imageSrc1, imageSrc2 }) => {
         initial={{ opacity: 0 }}
         animate={{ opacity: 0 }}
         whileHover={{ opacity: 1 }}
+        whileTap={{opacity: 1}}
         transition={{ duration: 0.5 }}
       >
         <div className="relative w-[355.56px] h-[200px]">
