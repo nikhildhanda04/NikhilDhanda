@@ -79,3 +79,11 @@
     font-style: normal;
   }
 
+  @font-face {
+    font-family: 'Future';
+    src: url('./assets/fonts/FuturisticYourself.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+
