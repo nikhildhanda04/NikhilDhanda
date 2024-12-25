@@ -7,7 +7,7 @@ const HeroSection = () => {
   return (
     <div className='px-[18vw] py-12'>
       <motion.h2
-        className='font-[Beycago] text-[#FBFF00] mb-[-10vw] text-[4vw]'
+        className='font-[Beycago] text-[#FBFF00] mb-[-10vw] text-[4vw] z-30'
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ duration: 0.5, ease: 'easeIn' }}
@@ -20,11 +20,11 @@ const HeroSection = () => {
         animate={{ opacity: 1 }}
         transition={{ duration: 0.5, ease: 'easeIn' }}
       >
-        <video src={videoSrc} autoPlay loop muted className='w-full h-auto'>
+        <video src={videoSrc} autoPlay loop muted className='w-full h-auto z-10'>
         </video>
       </motion.div>
       <motion.h3
-        className='font-[Andenver] text-[3vw] mt-[-10vw] text-[#FBFF00] leading-tight'
+        className='font-[Andenver] text-[3vw] mt-[-10vw] text-[#FBFF00] leading-tight z-30'
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ duration: 0.5, ease: 'easeIn' }}
