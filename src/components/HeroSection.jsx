@@ -8,7 +8,7 @@ const HeroSection = ({ projectsRef }) => {
     projectsRef.current.scrollIntoView({ behavior: 'smooth' });
   };
   return (
-    <div className='sm:px-[18vw] px-[5vw] py-12 leading-tight'>
+    <div className='relative sm:px-[18vw] px-[5vw] py-12 leading-tight'>
       <motion.h2
         className='font-[Beycago] text-[#FBFF00] mb-[-12vw] text-[4vw] z-30'
         initial={{ opacity: 0 }}
