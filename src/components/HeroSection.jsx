@@ -23,7 +23,7 @@ const HeroSection = ({ projectsRef }) => {
         animate={{ opacity: 1 }}
         transition={{ duration: 0.5, ease: 'easeIn' }}
       >
-        <video src={videoSrc} autoPlay loop muted playsInline className='w-full h-auto z-10' style={{objectFit: 'cover'}}>
+        <video src={videoSrc} autoPlay loop muted playsInline className='w-full h-auto z-1' style={{objectFit: 'cover'}}>
         </video>
       </motion.div>
       <motion.h3
