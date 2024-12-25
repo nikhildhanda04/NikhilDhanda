@@ -28,7 +28,12 @@ const projectData = [
 const Projects = () => {
   return (
     <div className='px-[7.5vw] py-20'>
-      <motion.div className='font-[Recoleta] leading-tight'>
+      <motion.div 
+      className='font-[Recoleta] leading-tight'
+      initial={{opacity:0, y: 40}}
+      whileInView={{opacity:1 , y:0}}
+      transition={{duration:0.7, ease:'easeIn'}}
+      >
         <h2
           className='text-[#FBFF00] text-[6vw] pl-10'
           style={{ textShadow: '5px 4px 9px #575757' }}
@@ -38,7 +43,12 @@ const Projects = () => {
         <h2 className='text-white text-[5.2vw] pl-10'>PROJECTS</h2>
       </motion.div>
 
-      <div className='grid grid-cols-1 md:grid-cols-2 gap-x-10 gap-y-10 mt-20'>
+      <motion.div 
+      className='grid grid-cols-1 md:grid-cols-2 gap-x-10 gap-y-10 mt-20'
+      initial={{opacity:0, y: 40}}
+      whileInView={{opacity:1 , y:0}}
+      transition={{duration:0.7, ease:'easeIn'}}
+      >
         {projectData.map((project, index) => (
           <ProjectCard
             key={index}
@@ -47,7 +57,7 @@ const Projects = () => {
             imageSrc2={project.imageSrc2}
           />
         ))}
-      </div>
+      </motion.div>
     </div>
   );
 };

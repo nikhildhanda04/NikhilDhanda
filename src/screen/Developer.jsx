@@ -3,6 +3,7 @@ import Navbar from '../components/Navbar'
 import HeroSection from '../components/HeroSection'
 import Projects from '../components/Projects'
 import Carousel from '../components/Carousel'
+import Work from '../components/Work'
 
 import { useRef } from 'react'
 const Developer = () => {
@@ -17,7 +18,7 @@ const Developer = () => {
       <div className=' carousel-container border-y-4 relative border-white'>
       <Carousel />
       </div>
-
+      <Work />
     </div>
   )
 }
