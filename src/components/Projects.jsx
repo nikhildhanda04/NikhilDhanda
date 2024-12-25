@@ -27,7 +27,7 @@ const projectData = [
 
 const Projects = () => {
   return (
-    <div className='px-36 py-20'>
+    <div className='px-[7.5vw] py-20'>
       <motion.div className='font-[Recoleta] leading-tight'>
         <h2
           className='text-[#FBFF00] text-[60px] pl-10'
@@ -38,7 +38,7 @@ const Projects = () => {
         <h2 className='text-white text-[55px] pl-10'>PROJECTS</h2>
       </motion.div>
 
-      <div className='grid grid-cols-2 gap-x-10 gap-y-10 mt-20'>
+      <div className='grid grid-cols-1 md:grid-cols-2 gap-x-10 gap-y-10 mt-20'>
         {projectData.map((project, index) => (
           <ProjectCard
             key={index}
