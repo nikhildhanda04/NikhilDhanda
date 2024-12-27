@@ -4,7 +4,7 @@ import HeroSection from '../components/HeroSection'
 import Projects from '../components/Projects'
 import Carousel from '../components/Carousel'
 import Work from '../components/Work'
-
+import Footer from '../components/Footer'
 import { useRef } from 'react'
 const Developer = () => {
   const projectsRef = useRef(null);
@@ -19,6 +19,7 @@ const Developer = () => {
       <Carousel />
       </div>
       <Work />
+      <Footer/>
     </div>
   )
 }

@@ -1,6 +1,6 @@
 import React from 'react'
 import {motion} from 'framer-motion';
-
+import Reviews from './Reviews';
 const Work = () => {
   return (
     <motion.div className='py-[14.5vh] px-[10vh] '>
@@ -83,6 +83,10 @@ const Work = () => {
             </p>
         </motion.div>
         </motion.div>
+        </div>
+
+        <div>
+            <Reviews/>
         </div>
     </motion.div>
   )
