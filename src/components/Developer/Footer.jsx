@@ -1,8 +1,8 @@
 import React from 'react';
 import { Instagram, Linkedin, Github, Link } from 'lucide-react';
-import FooterImage1 from '../assets/footer1.jpg';
-import FooterImage2 from '../assets/footer2.jpg';
-import FooterImage3 from '../assets/footer3.jpg';
+import FooterImage1 from '../../assets/footer1.jpg';
+import FooterImage2 from '../../assets/footer2.jpg';
+import FooterImage3 from '../../assets/footer3.jpg';
 
 const Footer = () => {
   return (

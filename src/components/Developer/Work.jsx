@@ -37,10 +37,10 @@ const Work = () => {
         transition={{duration:0.7, ease:'easeIn'}} 
         >
             <p className='text-[12vw]'>
-                500+
+                5+
             </p>
             <p className='text-[10vw] md:text-[4vw] ml-4 flex items-center text-[#D1AF04]'>
-                Hours
+                Months
             </p>
         </motion.div>
         </motion.div>

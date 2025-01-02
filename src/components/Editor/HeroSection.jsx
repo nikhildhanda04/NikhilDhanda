@@ -1,5 +1,5 @@
 import React, { } from 'react';
-import videoSrc from '../assets/HS.webm';
+import videoSrc from '../../assets/HS.webm';
 import { ArrowDown } from 'lucide-react';
 import { motion } from 'framer-motion';
 
@@ -23,7 +23,10 @@ const HeroSection = ({ projectsRef }) => {
         animate={{ opacity: 1 }}
         transition={{ duration: 0.5, ease: 'easeIn' }}
       >
-        <video src={videoSrc} autoPlay loop muted playsInline className='w-full relative h-auto z-1' style={{objectFit: 'cover', backgroundColor: 'transparent'}}>
+        <video src={videoSrc} 
+        autoPlay loop muted playsInline 
+        className='w-full relative h-auto z-1' 
+        style={{objectFit: 'cover', backgroundColor: 'transparent'}}>
         </video>
       </motion.div>
       <motion.h3
@@ -32,7 +35,7 @@ const HeroSection = ({ projectsRef }) => {
         animate={{ opacity: 1 }}
         transition={{ duration: 0.5, ease: 'easeIn' }}
       >
-        I’m a passionate developer and software engineer dedicated to crafting impactful solutions. Ready to elevate your potential?
+        I'm a professional video editor with extensive experience creating diverse video content for a range of clients. Ready to elevate your content to the next level?
       </motion.h3>
       <motion.div 
         className='hidden sm:block'

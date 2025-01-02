@@ -1,11 +1,11 @@
 import React, { useState, useEffect } from 'react';
 import { Star, CircleDashed } from 'lucide-react';
 import { motion } from 'framer-motion';
-import LokanshaImage from '../assets/Lokansha.jpg';
-import AnushravImage from '../assets/Anushrav.jpg';
-import AdityaImage from '../assets/Aditya.jpg';
-import ArvindImage from '../assets/Arvind.jpg';
-import AgrimaImage from '../assets/Agrima.jpg';
+import LokanshaImage from '../../assets/Lokansha.jpg';
+import AnushravImage from '../../assets/Anushrav.jpg';
+import AdityaImage from '../../assets/Aditya.jpg';
+import ArvindImage from '../../assets/Arvind.jpg';
+import AgrimaImage from '../../assets/Agrima.jpg';
 
 const reviews = [
   {
@@ -35,7 +35,7 @@ const reviews = [
   {
     text: "Nikhil's attention to detail and creativity is unmatched, very satisfied with the results.",
     name: "Agrima Joshi",
-    title: "~ Lead, Metaverse Club",
+    title: "~ Researcher, IIT Roorkee",
     image: AgrimaImage
   },
 

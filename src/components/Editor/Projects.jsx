@@ -1,14 +1,14 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import ProjectCard from './ProjectCard';
-import KabiraImage1 from '../assets/Projects/Kabira1.png';
-import KabiraImage2 from '../assets/Projects/Kabira2.png';
-import UpliftioImage1 from '../assets/Projects/Uplifio1.png';
-import UpliftioImage2 from '../assets/Projects/Uplifio2.png';
-import PortfolioImage1 from '../assets/Projects/Portfolio1.png';
-import PortfolioImage2 from '../assets/Projects/Portfolio2.png';
-import FactoImage1 from '../assets/Projects/Facto1.png';
-import FactoImage2 from '../assets/Projects/Facto2.png';
+import ProjectCard from '../Developer/ProjectCard';
+import KabiraImage1 from '../../assets/Projects/Kabira1.png';
+import KabiraImage2 from '../../assets/Projects/Kabira2.png';
+import UpliftioImage1 from '../../assets/Projects/Uplifio1.png';
+import UpliftioImage2 from '../../assets/Projects/Uplifio2.png';
+import PortfolioImage1 from '../../assets/Projects/Portfolio1.png';
+import PortfolioImage2 from '../../assets/Projects/Portfolio2.png';
+import FactoImage1 from '../../assets/Projects/Facto1.png';
+import FactoImage2 from '../../assets/Projects/Facto2.png';
 
 const projectData = [
   {
@@ -16,6 +16,7 @@ const projectData = [
     imageSrc1: KabiraImage1,
     imageSrc2: KabiraImage2,
   },
+  
   {
     CardTitle: 'Upliftio',
     imageSrc1: UpliftioImage1,
