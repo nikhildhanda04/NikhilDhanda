@@ -3,7 +3,7 @@ import {motion} from 'framer-motion';
 import Reviews from './Reviews';
 const Work = () => {
   return (
-    <motion.div className='py-[14.5vh] px-[10vh] '>
+    <motion.div className='py-[14.5vh] px-[10vw]'>
         <div className='leading-tight font-[Recoleta] text-center md:text-start '>
         <motion.h2 
         className='text-white text-[10vw] md:text-[6vw] '
@@ -85,7 +85,7 @@ const Work = () => {
         </motion.div>
         </div>
 
-        <div>
+        <div className='mx-auto w-full flex justify-center'>
             <Reviews/>
         </div>
     </motion.div>
