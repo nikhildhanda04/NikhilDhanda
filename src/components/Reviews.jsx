@@ -1,39 +1,43 @@
 import React, { useState, useEffect } from 'react';
 import { Star, CircleDashed } from 'lucide-react';
 import { motion } from 'framer-motion';
+import LokanshaImage from '../assets/Lokansha.jpg';
+import AnushravImage from '../assets/Anushrav.jpg';
+import AdityaImage from '../assets/Aditya.jpg';
+import ArvindImage from '../assets/Arvind.jpg';
+import AgrimaImage from '../assets/Agrima.jpg';
 
 const reviews = [
   {
     text: "Great experience working with Nikhil, he is very knowledgeable and easy to work with.",
     name: "Lokansha Balyan",
     title: "~ Lawyer, Balyan & Co.",
-    image: "/src/assets/Lokansha.jpg"
+    image: LokanshaImage
   },
   {
     text: "Immaculate job done by Nikhil, exceptional and sleek designs and great development skills",
     name: "Anushrav Rathi",
     title: "~ CEO, Webcrafts Media",
-    image: "/src/assets/Anushrav.jpg"
+    image: AnushravImage
   },
   {
     text: "Nikhil's work is outstanding, he delivered everything on time and exceeded expectations.",
     name: "Aditya Sharma",
     title: "~ CTO, Adzone Printing",
-    image: "/src/assets/Aditya.jpg"
+    image: AdityaImage
   },
   {
     text: "Highly recommend Nikhil for any web development projects, very professional and skilled.",
     name: "Arvind Lather",
     title: "~ Founder, Aztec Enterprises",
-    image: "/src/assets/footer3.jpg"
+    image: ArvindImage
   },
   {
     text: "Nikhil's attention to detail and creativity is unmatched, very satisfied with the results.",
     name: "Agrima Joshi",
     title: "~ Lead, Metaverse Club",
-    image: "/src/assets/footer4.jpg"
+    image: AgrimaImage
   },
-  
 
 ];
 
