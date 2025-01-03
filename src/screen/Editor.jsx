@@ -15,7 +15,7 @@ const Editor = () => {
       <div ref={projectsRef}>
         <Projects />
       </div>
-      <div className='carousel-container border-y-4 relative border-white'>
+      <div className='carousel-container border-y-4 relative border-wh  ite'>
       <Carousel />
       </div>
       <Work />

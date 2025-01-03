@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 import LokanshaImage from '../../assets/Lokansha.jpg';
 import AnushravImage from '../../assets/Anushrav.jpg';
 import IdraImage from '../../assets/Idra.jpg';
-import ArvindImage from '../../assets/Arvind.jpg';
+import RachitImage from '../../assets/Rachit.jpg';
 import PranavImage from '../../assets/Pranav.jpg';
 
 const reviews = [
@@ -17,7 +17,7 @@ const reviews = [
   {
     text: "Unelievable speed and quality of work, Nikhil is a true professional and a pleasure to work with.",
     name: "Rishav Bhardwaz",
-    title: "~SDE, Boieng Inc.",
+    title: "~ SDE, Boieng Inc.",
     image: AnushravImage
   },
   {
@@ -30,7 +30,7 @@ const reviews = [
     text: "Highly recommend Nikhil for any Video projects, very professional and skilled.",
     name: "Rachit Sharma",
     title: "~ Developer, Ubisoft",
-    image: ArvindImage
+    image: RachitImage
   },
   {
     text: "Nikhil's mastery in his craft is unmatched, very satisfied with the results.",
@@ -128,7 +128,7 @@ const Reviews = () => {
               key={index}
               size={30}
               onClick={() => setCurrentReview(index)}
-              className={currentReview === index ? 'text-yellow-400' : ''}
+              className={currentReview === index ? 'text-[#00C8FF]' : ''}
               style={{ cursor: 'pointer' }}
             />
           ))}

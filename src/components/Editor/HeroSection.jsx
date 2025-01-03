@@ -10,7 +10,7 @@ const HeroSection = ({ projectsRef }) => {
   return (
     <div className='relative sm:px-[18vw] px-[5vw] py-12 leading-tight'>
       <motion.h2
-        className='font-[Beycago] text-[#FBFF00] mb-[-12vw] text-[4vw] relative z-30'
+        className='font-[Beycago] text-[#00C8FF] mb-[-12vw] text-[4vw] relative z-30'
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ duration: 0.5, ease: 'easeIn' }}
@@ -30,7 +30,7 @@ const HeroSection = ({ projectsRef }) => {
         </video>
       </motion.div>
       <motion.h3
-        className='font-[Andenver] text-[3vw] mt-[-12vw] text-[#FBFF00] relative leading-tight z-30'
+        className='font-[Andenver] text-[3vw] mt-[-12vw] text-[#00C8FF] relative leading-tight z-30'
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ duration: 0.5, ease: 'easeIn' }}
