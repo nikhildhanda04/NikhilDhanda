@@ -1,36 +1,36 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import ProjectCard from '../Developer/ProjectCard';
-import KabiraImage1 from '../../assets/Projects/Kabira1.png';
-import KabiraImage2 from '../../assets/Projects/Kabira2.png';
-import UpliftioImage1 from '../../assets/Projects/Uplifio1.png';
-import UpliftioImage2 from '../../assets/Projects/Uplifio2.png';
-import PortfolioImage1 from '../../assets/Projects/Portfolio1.png';
+import Vlog1 from '../../assets/Projects/Vlog1.png';
+import Vlog2 from '../../assets/Projects/Vlog2.png';
+import Reel1 from '../../assets/Projects/Reel1.png';
+import Reel2 from '../../assets/Projects/Reel2.png';
+import Narrative1 from '../../assets/Projects/Narrative1.png';
 import PortfolioImage2 from '../../assets/Projects/Portfolio2.png';
-import FactoImage1 from '../../assets/Projects/Facto1.png';
-import FactoImage2 from '../../assets/Projects/Facto2.png';
+import Aftermovie1 from '../../assets/Projects/Aftermovie1.png';
+import Aftermovie2 from '../../assets/Projects/Aftermovie2.png';
 
 const projectData = [
   {
-    CardTitle: 'Kabira',
-    imageSrc1: KabiraImage1,
-    imageSrc2: KabiraImage2,
+    CardTitle: 'Vlogs',
+    imageSrc1: Vlog1,
+    imageSrc2: Vlog2,
   },
   
   {
-    CardTitle: 'Upliftio',
-    imageSrc1: UpliftioImage1,
-    imageSrc2: UpliftioImage2,
+    CardTitle: 'Reels',
+    imageSrc1: Reel1,
+    imageSrc2: Reel2,
   },
   {
-    CardTitle: 'Portfolio',
-    imageSrc1: PortfolioImage1,
+    CardTitle: 'Narrative',
+    imageSrc1: Narrative1,
     imageSrc2: PortfolioImage2,
   },
   {
-    CardTitle: 'Facto',
-    imageSrc1: FactoImage1,
-    imageSrc2: FactoImage2,
+    CardTitle: 'After_Movies',
+    imageSrc1: Aftermovie1,
+    imageSrc2: Aftermovie2,
   },
 ];
 

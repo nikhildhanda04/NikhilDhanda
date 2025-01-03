@@ -3,40 +3,40 @@ import { Star, CircleDashed } from 'lucide-react';
 import { motion } from 'framer-motion';
 import LokanshaImage from '../../assets/Lokansha.jpg';
 import AnushravImage from '../../assets/Anushrav.jpg';
-import AdityaImage from '../../assets/Aditya.jpg';
+import IdraImage from '../../assets/Idra.jpg';
 import ArvindImage from '../../assets/Arvind.jpg';
-import AgrimaImage from '../../assets/Agrima.jpg';
+import PranavImage from '../../assets/Pranav.jpg';
 
 const reviews = [
   {
-    text: "Great experience working with Nikhil, he is very knowledgeable and easy to work with.",
-    name: "Lokansha Balyan",
-    title: "~ Lawyer, Balyan & Co.",
+    text: "Fabulous work by Nikhil, his editing skills are top-notch and he is very professional.",
+    name: "Mayank Sharma",
+    title: "~ Coordinator, Photography Club",
     image: LokanshaImage
   },
   {
-    text: "Immaculate job done by Nikhil, exceptional and sleek designs and great development skills",
-    name: "Anushrav Rathi",
-    title: "~ CEO, Webcrafts Media",
+    text: "Unelievable speed and quality of work, Nikhil is a true professional and a pleasure to work with.",
+    name: "Rishav Bhardwaz",
+    title: "~SDE, Boieng Inc.",
     image: AnushravImage
   },
   {
-    text: "Nikhil's work is outstanding, he delivered everything on time and exceeded expectations.",
-    name: "Aditya Sharma",
-    title: "~ CTO, Adzone Printing",
-    image: AdityaImage
+    text: "Creative and innovative, Nikhil's work is exceptional and he is very easy to work with.",
+    name: "Idra Chaudhary",
+    title: "~ VP, Art Club",
+    image: IdraImage
   },
   {
-    text: "Highly recommend Nikhil for any web development projects, very professional and skilled.",
-    name: "Arvind Lather",
-    title: "~ Founder, Aztec Enterprises",
+    text: "Highly recommend Nikhil for any Video projects, very professional and skilled.",
+    name: "Rachit Sharma",
+    title: "~ Developer, Ubisoft",
     image: ArvindImage
   },
   {
-    text: "Nikhil's attention to detail and creativity is unmatched, very satisfied with the results.",
-    name: "Agrima Joshi",
-    title: "~ Researcher, IIT Roorkee",
-    image: AgrimaImage
+    text: "Nikhil's mastery in his craft is unmatched, very satisfied with the results.",
+    name: "Pranav Dev",
+    title: "~ Editor, Freelance",
+    image: PranavImage
   },
 
 ];
