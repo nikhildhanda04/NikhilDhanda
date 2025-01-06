@@ -25,7 +25,7 @@ const ProjectCard = ({ CardTitle, imageSrc1, imageSrc2 }) => {
         whileHover={{ opacity: 0 }}
         transition={{ duration: 0.5 }}
       >
-        <span className="font-[Over] text-[90px] font-bold">{CardTitle}</span>
+        <span className="font-[Over] text-[6vw] font-bold">{CardTitle}</span>
       </motion.div>
 
       <motion.div

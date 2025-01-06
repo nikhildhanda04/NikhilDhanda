@@ -45,12 +45,12 @@ const Projects = () => {
       transition={{duration:0.7, ease:'easeIn'}}
       >
         <h2
-          className='text-blu text-[6vw] pl-10'
+          className='text-blu text-[8vw] md:text-[6vw] pl-10'
           style={{ textShadow: '5px 4px 9px #575757' }}
         >
           my
         </h2>
-        <h2 className='text-white text-[5.2vw] pl-10'>PROJECTS</h2>
+        <h2 className='text-white text-[7vw] md:text-[5.2vw] pl-10'>PROJECTS</h2>
       </motion.div>
 
       <motion.div 

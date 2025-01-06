@@ -78,7 +78,7 @@ const Reviews = () => {
 
             <motion.div
               key={currentReview}
-              className='text-white font-[Hatten] text-[3vw] w-full'
+              className='text-white font-[Hatten] text-[5vw] md:text-[3vw] w-full'
               initial={{ opacity: 0, x: -20 }}
               animate={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.9, ease: 'easeInOut' }}
@@ -109,12 +109,12 @@ const Reviews = () => {
               transition={{ duration: 0.9, ease: 'easeInOut' }}
             >
               <div className=''>
-                <p className='text-[2.5vw] font-[Hatten]'>
+                <p className='text-[4vw] md:text-[2vw] font-[Hatten]'>
                   {reviews[currentReview].name}
                 </p>
               </div>
               <div className=''>
-                <p className='text-[1.5vw] text-gray-700 font-[Hatten]'>
+                <p className='text-[2vw] md:text-[1.5vw] text-gray-700 font-[Hatten]'>
                   {reviews[currentReview].title}
                 </p>
               </div>
