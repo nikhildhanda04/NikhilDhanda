@@ -44,7 +44,7 @@ const Projects = () => {
       transition={{duration:0.7, ease:'easeIn'}}
       >
         <h2
-          className='text-[#FBFF00] text-[6vw] pl-10'
+          className='text-yelo text-[6vw] pl-10'
           style={{ textShadow: '5px 4px 9px #575757' }}
         >
           my

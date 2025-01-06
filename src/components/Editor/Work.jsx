@@ -14,7 +14,7 @@ const Work = () => {
             about my
         </motion.h2>
         <motion.h2 
-        className='text-[#00C8FF] text-[11vw] md:text-[7vw] '
+        className='text-blu text-[11vw] md:text-[7vw] '
         style={{textShadow: '5px 4px 9px #575757'}}
         initial={{opacity:0, y: 40}}
         whileInView={{opacity:1 , y:0}}
@@ -39,7 +39,7 @@ const Work = () => {
             <p className='text-[12vw]'>
                 2+
             </p>
-            <p className='text-[10vw] md:text-[4vw] ml-4 flex items-center text-[#00C8FF]'>
+            <p className='text-[10vw] md:text-[4vw] ml-4 flex items-center text-blu'>
                 Years
             </p>
         </motion.div>
@@ -59,7 +59,7 @@ const Work = () => {
             <p className='text-[12vw]'>
                 100+
             </p>
-            <p className='text-[10vw] md:text-[4vw] ml-4 flex items-center text-[#00C8FF]'>
+            <p className='text-[10vw] md:text-[4vw] ml-4 flex items-center text-blu'>
                 Projects
             </p>
         </motion.div>
@@ -78,7 +78,7 @@ const Work = () => {
             <p className='text-[12vw]'>
                 60+
             </p>
-            <p className='text-[10vw] md:text-[4vw] ml-4 flex items-center text-[#00C8FF]'>   
+            <p className='text-[10vw] md:text-[4vw] ml-4 flex items-center text-blu'>   
                 Happy Clients
             </p>
         </motion.div>

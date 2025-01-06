@@ -85,7 +85,7 @@ const Footer = () => {
                 href=""
                 className='flex items-center justify-center rounded-full bg-[#272727] w-[50px] h-[50px]'
               >
-                <Link color='#FBFF00' strokeWidth={1}/>
+                <Link color='yelo' strokeWidth={1}/>
               </a>
             </div>
           </div>

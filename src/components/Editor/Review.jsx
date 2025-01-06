@@ -128,7 +128,7 @@ const Reviews = () => {
               key={index}
               size={30}
               onClick={() => setCurrentReview(index)}
-              className={currentReview === index ? 'text-[#00C8FF]' : ''}
+              className={currentReview === index ? 'text-blu' : ''}
               style={{ cursor: 'pointer' }}
             />
           ))}

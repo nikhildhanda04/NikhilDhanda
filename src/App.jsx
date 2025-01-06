@@ -3,7 +3,6 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Developer from './screen/Developer';
 import Editor from './screen/Editor';
 import Layout from './components/Layout';
-
 function App() {
     return (
         <Router>

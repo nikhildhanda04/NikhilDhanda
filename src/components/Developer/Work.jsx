@@ -14,7 +14,7 @@ const Work = () => {
             about my
         </motion.h2>
         <motion.h2 
-        className='text-[#FBFF00] text-[11vw] md:text-[7vw] '
+        className='text-yelo text-[11vw] md:text-[7vw] '
         style={{textShadow: '5px 4px 9px #575757'}}
         initial={{opacity:0, y: 40}}
         whileInView={{opacity:1 , y:0}}

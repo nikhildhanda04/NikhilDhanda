@@ -8,8 +8,7 @@ import Reel2 from '../../assets/Projects/Reel2.png';
 import Narrative1 from '../../assets/Projects/Narrative1.png';
 import PortfolioImage2 from '../../assets/Projects/Portfolio2.png';
 import Aftermovie1 from '../../assets/Projects/Aftermovie1.png';
-import Aftermovie2 from '../../assets/Projects/Aftermovie2.png';
-
+import Aftermovie2 from '../../assets/Projects/Aftermovie2.png';  
 const projectData = [
   {
     CardTitle: 'Vlogs',
@@ -35,6 +34,8 @@ const projectData = [
 ];
 
 const Projects = () => {
+
+
   return (
     <div className='px-[7.5vw] py-20'>
       <motion.div 
@@ -44,7 +45,7 @@ const Projects = () => {
       transition={{duration:0.7, ease:'easeIn'}}
       >
         <h2
-          className='text-[#00C8FF] text-[6vw] pl-10'
+          className='text-blu text-[6vw] pl-10'
           style={{ textShadow: '5px 4px 9px #575757' }}
         >
           my
@@ -57,14 +58,16 @@ const Projects = () => {
       initial={{opacity:0, y: 40}}
       whileInView={{opacity:1 , y:0}}
       transition={{duration:0.7, ease:'easeIn'}}
+      
       >
+
         {projectData.map((project, index) => (
-          <ProjectCard
-            key={index}
-            CardTitle={project.CardTitle}
-            imageSrc1={project.imageSrc1}
-            imageSrc2={project.imageSrc2}
-          />
+
+            <ProjectCard
+              CardTitle={project.CardTitle}
+              imageSrc1={project.imageSrc1}
+              imageSrc2={project.imageSrc2}
+            />
         ))}
       </motion.div>
     </div>
