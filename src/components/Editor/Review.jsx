@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { Star, CircleDashed } from 'lucide-react';
 import { motion } from 'framer-motion';
-import LokanshaImage from '../../assets/Lokansha.jpg';
-import AnushravImage from '../../assets/Anushrav.jpg';
+import MayankImage from '../../assets/Mayank.png';
+import RishavImage from '../../assets/Rishav.png'
 import IdraImage from '../../assets/Idra.jpg';
 import RachitImage from '../../assets/Rachit.jpg';
 import PranavImage from '../../assets/Pranav.jpg';
@@ -12,13 +12,13 @@ const reviews = [
     text: "Fabulous work by Nikhil, his editing skills are top-notch and he is very professional.",
     name: "Mayank Sharma",
     title: "~ Coordinator, Photography Club",
-    image: LokanshaImage
+    image: MayankImage
   },
   {
     text: "Unelievable speed and quality of work, Nikhil is a true professional and a pleasure to work with.",
     name: "Rishav Bhardwaz",
     title: "~ SDE, Boieng Inc.",
-    image: AnushravImage
+    image: RishavImage
   },
   {
     text: "Creative and innovative, Nikhil's work is exceptional and he is very easy to work with.",
